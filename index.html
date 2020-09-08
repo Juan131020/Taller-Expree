@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html >
+<head>
+    <meta charset="utf-8" />
+    <title>usuarios</title>
+   
+</head>
+<body>
+
+    <div class="tit">
+        <p class="titulo">Formulario de registro</p>
+        </div>
+    <div class="formulario">
+    <form class="formu" action="/submit-student-data" method="POST">
+        Nombre: <input name="firstName" type="text" required/> <br /><br>
+        Apellido: <input name="lastName" type="text" required/> <br /><br>
+        Edad:<input name="year" type="text"required/> <br><br>
+        id:<input name= "id" type="text"required/> <br><br>
+        <input type="submit"id="guardar" value="Guardar" /><br><br>
+        <a class="navi" href="/mostrar-datos"> Mostrar datos</a><br><br>
+        <a class="navi2" href="/eliminar">Eliminar Usuario</a>
+    </form>
+    </div>
+   
+    <script src="funciones.js" ></script>
+</body>
+</html>
